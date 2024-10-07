@@ -58,9 +58,9 @@ nav {
 
 .grid_container_nav {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Dynamische Spalten */
+    /*grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Dynamische Spalten */
 
-    /* grid-template-columns: 10em 10em 10em 10em 10em 10rem; */
+    grid-template-columns: 10em 10em 10em 10em 10em 10rem; 
     margin: 0;
     padding: 0;
     justify-items: center;
